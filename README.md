@@ -19,11 +19,11 @@ Directory Contents
 ```
 
 
-`Makefile`: for ease of compiling and executing this example
-`TestConflict.java`: the main source code where conflict happens (when calling func() function)
-`tmp1/Steven.java`: the first package containing func()
-`tmp2/Steven.java`: the second package containing func()
-`class/`: originally empty directory for our java classes
+- `Makefile`: for ease of compiling and executing this example
+- `TestConflict.java`: the main source code where conflict happens (when calling func() function)
+- `tmp1/Steven.java`: the first package containing func()
+- `tmp2/Steven.java`: the second package containing func()
+- `class/`: originally empty directory for our java classes
 
 Usage
 =====
