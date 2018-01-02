@@ -36,7 +36,20 @@ Simply use `$make compile` to compile our java codes.
 Executing
 ---------
 
-`$make run` will run our main code (`TestConflict.java`); however, there would be no conflicts, warnings, or errors.
+`$make run` will run our main code (`TestConflict.java`); however, there would be no conflicts, warnings, or errors if you're in `master` branch.
+
+To product the conflict error, execute the following 3 commands:
+```shell=
+$ git checkout conflict
+$ make clean
+$ make compile
+```
+, there will be an error like this:
+```shell
+error: reference to Steven is ambiguous
+both class tmp2.steven.Steven in tmp2.steven and class tmp1.steven.Steven in tmp1.steven match
+```
+; there you go!
 
 
 Clean-up
